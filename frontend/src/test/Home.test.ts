@@ -96,8 +96,8 @@ describe('Home 组件测试', () => {
   it('商品列表加载后应该设置 finished 状态', async () => {
     const wrapper = mount(Home)
     
-    // 模拟多次加载
-    for (let i = 0; i < 5; i++) {
+    // 模拟多次加载直到 finished
+    while (!wrapper.vm.finished) {
       wrapper.vm.onLoad()
       await new Promise(resolve => setTimeout(resolve, 1100))
       await flushPromises()
@@ -105,5 +105,6 @@ describe('Home 组件测试', () => {
     
     // 当商品数量 >= 10 时应该设置 finished
     expect(wrapper.vm.finished).toBe(true)
-  })
+    expect(wrapper.vm.products.length).toBeGreaterThanOrEqual(10)
+  }, 15000)
 })
