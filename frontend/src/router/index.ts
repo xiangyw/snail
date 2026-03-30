@@ -54,6 +54,26 @@ const router = createRouter({
       name: 'contentEdit',
       component: () => import('@/views/ContentEdit/index.vue'),
       props: true
+    },
+    {
+      path: '/admin',
+      name: 'admin',
+      component: () => import('@/views/Admin/Dashboard.vue')
+    },
+    {
+      path: '/messages',
+      name: 'messages',
+      component: () => import('@/views/Message/index.vue')
+    },
+    {
+      path: '/invite',
+      name: 'invite',
+      component: () => import('@/views/Invite/Home.vue')
+    },
+    {
+      path: '/stats',
+      name: 'stats',
+      component: () => import('@/views/Stats/Dashboard.vue')
     }
   ]
 })
