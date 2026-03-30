@@ -6,10 +6,10 @@ services:
     image: mysql:8.0
     container_name: snail-mysql
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-snail_dev_password}
+      MYSQL_ROOT_PASSWORD: snail_dev_password
       MYSQL_DATABASE: snail
       MYSQL_USER: snail
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-snail_dev_password}
+      MYSQL_PASSWORD: snail_dev_password
     ports:
       - "3306:3306"
     volumes:
@@ -37,48 +37,6 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
-
-  # Backend Service
-  backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: snail-backend
-    environment:
-      SPRING_PROFILES_ACTIVE: dev
-      DB_HOST: mysql
-      DB_PORT: 3306
-      DB_NAME: snail
-      DB_USER: snail
-      DB_PASSWORD: ${MYSQL_PASSWORD:-snail_dev_password}
-      REDIS_HOST: redis
-      REDIS_PORT: 6379
-    ports:
-      - "8080:8080"
-    depends_on:
-      mysql:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    networks:
-      - snail-network
-
-  # Frontend Service (Development)
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-      target: development
-    container_name: snail-frontend
-    environment:
-      VITE_API_BASE_URL: http://localhost:8080/api
-    ports:
-      - "5173:5173"
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
-    networks:
-      - snail-network
 
 volumes:
   mysql_data:
