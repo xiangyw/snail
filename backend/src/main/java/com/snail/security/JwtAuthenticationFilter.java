@@ -1,6 +1,6 @@
 package com.snail.security;
 
-import io.jsonwebtoken.ExpiredJwtException;
+import com.snail.security.ExpiredJwtException;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

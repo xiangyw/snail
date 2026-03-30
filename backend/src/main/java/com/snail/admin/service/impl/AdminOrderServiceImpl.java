@@ -3,7 +3,7 @@ package com.snail.admin.service.impl;
 import com.snail.admin.service.AdminOrderService;
 import com.snail.entity.Order;
 import com.snail.entity.Order.OrderStatus;
-import com.snail.dto.OrderDto;
+import com.snail.dto.OrderDTO;
 import com.snail.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -20,7 +20,7 @@ public class AdminOrderServiceImpl implements AdminOrderService {
     private OrderRepository orderRepository;
     
     @Override
-    public Page<OrderDto> getAllOrders(Pageable pageable) {
+    public Page<OrderDTO> getAllOrders(Pageable pageable) {
         Page<Order> orders = orderRepository.findAll(pageable);
         return orders.map(this::convertToDto);
     }
@@ -60,14 +60,14 @@ public class AdminOrderServiceImpl implements AdminOrderService {
     }
     
     @Override
-    public Page<OrderDto> searchOrders(String keyword, Pageable pageable) {
+    public Page<OrderDTO> searchOrders(String keyword, Pageable pageable) {
         Page<Order> orders = orderRepository.findByOrderNumberContainingIgnoreCaseOrReceiverNameContainingIgnoreCaseOrPhoneNumberContainingIgnoreCase(
             keyword, keyword, keyword, pageable);
         return orders.map(this::convertToDto);
     }
     
     @Override
-    public Page<OrderDto> getOrdersByStatus(String status, Pageable pageable) {
+    public Page<OrderDTO> getOrdersByStatus(String status, Pageable pageable) {
         try {
             OrderStatus orderStatus = OrderStatus.valueOf(status.toUpperCase());
             Page<Order> orders = orderRepository.findByStatus(orderStatus, pageable);
@@ -78,7 +78,7 @@ public class AdminOrderServiceImpl implements AdminOrderService {
     }
     
     @Override
-    public Page<OrderDto> getOrdersByUserId(Long userId, Pageable pageable) {
+    public Page<OrderDTO> getOrdersByUserId(Long userId, Pageable pageable) {
         Page<Order> orders = orderRepository.findByUserId(userId, pageable);
         return orders.map(this::convertToDto);
     }
@@ -120,8 +120,8 @@ public class AdminOrderServiceImpl implements AdminOrderService {
         return revenue != null ? revenue.doubleValue() : 0.0;
     }
     
-    private OrderDto convertToDto(Order order) {
-        OrderDto dto = new OrderDto();
+    private OrderDTO convertToDto(Order order) {
+        OrderDTO dto = new OrderDTO();
         dto.setId(order.getId());
         dto.setUserId(order.getUserId());
         dto.setOrderNumber(order.getOrderNumber());
