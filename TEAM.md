@@ -19,6 +19,71 @@
 
 ---
 
+## 🔄 Git 工作流 (2026-03-30 更新)
+
+### 分支策略
+
+```
+main (生产分支，🔒 严格保护)
+  ↑
+test (测试分支，🔒 严格保护)
+  ↑
+develop (开发集成分支)
+  ↑
+feature/* (功能分支，开发人员自建)
+```
+
+### 开发流程
+
+1. **开发人员创建功能分支**
+   ```bash
+   git checkout develop
+   git checkout -b feature/user-login
+   ```
+
+2. **开发并提交代码**
+   ```bash
+   git add .
+   git commit -m "feat: 实现用户登录"
+   git push -u origin feature/user-login
+   ```
+
+3. **提交 PR 到 develop**
+   - GitHub 创建 Pull Request
+   - 至少 1 人审查批准
+   - CI 检查通过
+
+4. **合并到 develop**
+   - 删除功能分支
+
+5. **阶段完成后 PR: develop → test**
+   - 测试团队验证
+
+6. **测试通过后 PR: test → main**
+   - 项目负责人审批
+   - 打版本标签
+   - 发布生产
+
+### 保护规则
+
+| 分支 | 直接 Push | PR 审查 | CI 检查 |
+|------|-----------|---------|---------|
+| `main` | ❌ 禁止 | ✅ 1 人 | ✅ 必须 |
+| `test` | ❌ 禁止 | ✅ 1 人 | ✅ 必须 |
+| `develop` | ⚠️ 限制 | ✅ 推荐 | ✅ 推荐 |
+| `feature/*` | ✅ 自由 | - | - |
+
+### 本地保护 (Git Hooks)
+
+克隆项目后安装 hooks:
+```bash
+./scripts/install-hooks.sh
+```
+
+这将防止意外推送到 main/test 分支。
+
+---
+
 ## 📋 团队职责详解
 
 ### 🎨 UI/UX 设计
@@ -58,37 +123,24 @@
 
 ---
 
-## 🔄 协作流程
-
-```
-需求 → 设计评审 → 任务拆分 → 开发 → 代码审查 → 测试 → 部署
-```
-
-### Git 工作流
-- `main` - 生产分支
-- `develop` - 开发分支
-- `feature/*` - 功能分支
-- `bugfix/*` - 修复分支
-- `release/*` - 发布分支
-
-### 代码审查
-- 所有 PR 需至少 1 人审查
-- 通过 CI 检查后方可合并
-- 禁止直接 push 到 main/develop
-
----
-
 ## 📁 项目结构
 
 ```
 snail/
 ├── docs/                 # 项目文档
+│   ├── requirements/     # 需求文档
+│   ├── design/           # 设计文档
+│   ├── api/              # API 文档
+│   ├── GIT_WORKFLOW.md   # Git 工作流规范
+│   └── STATUS.md         # 项目状态看板
 ├── design/               # 设计资源
 ├── frontend/             # 前端 (Vue)
 ├── backend/              # 后端 (Java)
 ├── tests/                # 测试
 ├── deploy/               # 部署配置
 └── scripts/              # 工具脚本
+    ├── install-hooks.sh  # Git hooks 安装
+    └── git-hooks/        # Git hooks 脚本
 ```
 
 ---
@@ -104,6 +156,23 @@ snail/
 | 缓存 | Redis |
 | 容器 | Docker + Docker Compose |
 | CI/CD | GitHub Actions |
+
+---
+
+## 📞 沟通机制
+
+- **每日站会**: 同步进度、阻塞问题
+- **周会**: 里程碑回顾、计划调整
+- **即时沟通**: 技术问题快速响应
+- **文档沉淀**: 决策记录、技术方案
+
+---
+
+## 📚 相关文档
+
+- [Git 工作流规范](./docs/GIT_WORKFLOW.md)
+- [GitHub 分支保护配置](./docs/GITHUB_BRANCH_PROTECTION.md)
+- [项目状态看板](./docs/STATUS.md)
 
 ---
 
