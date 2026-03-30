@@ -1,0 +1,26 @@
+#!/bin/sh
+# Git pre-push hook - 防止直接推送到受保护分支
+
+# 获取当前分支名
+BRANCH=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
+
+# 受保护的分支列表
+PROTECTED_BRANCHES="main test"
+
+# 检查是否在保护分支上
+for PROTECTED in $PROTECTED_BRANCHES; do
+    if [ "$BRANCH" = "$PROTECTED" ]; then
+        echo "❌ 错误：禁止直接推送到 $BRANCH 分支!"
+        echo ""
+        echo "请使用 PR 流程:"
+        echo "  1. 创建功能分支：git checkout -b feature/your-feature"
+        echo "  2. 开发并提交代码"
+        echo "  3. 推送到远程：git push -u origin feature/your-feature"
+        echo "  4. 在 GitHub 上提交 PR 到 develop"
+        echo ""
+        echo "详见：docs/GIT_WORKFLOW.md"
+        exit 1
+    fi
+done
+
+exit 0
