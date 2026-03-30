@@ -1,25 +1,38 @@
 spring:
-  application:
-    name: snail-backend
   datasource:
-    url: jdbc:mysql://localhost:3306/snail?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
-    username: snail
-    password: snail_dev_password
+    url: jdbc:mysql://localhost:3306/snail_db?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
+    username: root
+    password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
+  
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-    database-platform: org.hibernate.dialect.MySQLDialect
-  redis:
-    host: localhost
-    port: 6379
-    password:
-    database: 0
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+  
+  application:
+    name: snail-backend
 
 server:
   port: 8080
 
-jwt:
-  secret: snail-jwt-secret-key-for-development-only-please-change-in-production
-  expiration: 86400000
+# Swagger/OpenAPI 配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  show-actuator: true
+
+logging:
+  level:
+    com.snail: DEBUG
+    org.springframework.web: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
