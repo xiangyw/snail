@@ -1,0 +1,2964 @@
+{
+  "蜗牛app.xmind": [
+    {
+      "path": "画布 1",
+      "title": "画布 1",
+      "topic": {
+        "id": "d11b21e05dfb52ec88f9e9543f",
+        "class": "sheet",
+        "title": "画布 1",
+        "rootTopic": {
+          "id": "57287525f719b9a4bf243a5212",
+          "class": "topic",
+          "title": "🐌",
+          "structureClass": "org.xmind.ui.logic.right",
+          "children": {
+            "attached": [
+              {
+                "id": "30ba8df5181b69aa07651b4a80",
+                "title": "APP",
+                "children": {
+                  "attached": [
+                    {
+                      "title": "Android",
+                      "id": "a8604913-f33f-443d-a5af-6a718856f165",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "注册登陆-本机号码一键登录",
+                            "id": "8e6105fa-02e9-4faa-8abc-6b9bbcd2f9f4"
+                          },
+                          {
+                            "title": "安装启动页介绍3页",
+                            "id": "3f8c9bda-cace-455f-8b70-f3992c146c0a"
+                          },
+                          {
+                            "title": "启动页广告 5秒",
+                            "id": "3f4ad2b9-1dbc-4107-8b35-a6ab369c3cc2"
+                          },
+                          {
+                            "title": "首页",
+                            "id": "0a9e557c-ff83-4f5a-8a74-9be2fa511403",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "天气/搜索框",
+                                  "id": "14ddde56-5c9d-40df-93b7-221ed87ffb1a",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "搜索结果页",
+                                        "id": "5ab16be7-c4c1-4bf7-910e-0ff97b35dc0c"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "公告",
+                                  "id": "5ba5a133-e59e-49e5-8b35-e7a274de87ba"
+                                },
+                                {
+                                  "title": "功能入口区域",
+                                  "id": "91be4540-b69d-47ea-9927-479f5e6db35c",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "任务",
+                                        "id": "b58a3ad8-5887-482c-b6ca-7bdf01e8f005"
+                                      },
+                                      {
+                                        "title": "旅游-敬请期待",
+                                        "id": "e0d31c9f-9b7a-426c-8318-f4c99f7d46d8"
+                                      },
+                                      {
+                                        "title": "广场舞-敬请期待",
+                                        "id": "8df8385c-1297-4814-be14-c4376ddebbb5"
+                                      },
+                                      {
+                                        "title": "老年大学-敬请期待",
+                                        "id": "55edb53e-f2ed-485f-9864-5db7d0cedd48"
+                                      },
+                                      {
+                                        "title": "棋牌娱乐-敬请期待",
+                                        "id": "3441acea-2d16-459b-b233-7ce185be6d3b"
+                                      },
+                                      {
+                                        "title": "更多",
+                                        "id": "987b5835-71af-405f-a5c2-cdf0da8b4981"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "商品/广告区域",
+                                  "id": "dc698a14-7827-4693-b1c6-d38e4e04f467",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "滚动播放图片",
+                                        "id": "288fb5e4-b68c-48f6-be56-4e8a0d3414f2"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "视频/直播区域",
+                                  "id": "bf8dd61a-55b1-4c3e-b828-6228944ecadc",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "直播",
+                                        "id": "f24cbc52-412f-415f-93a2-491c53a7aff6",
+                                        "children": {
+                                          "attached": [
+                                            {
+                                              "title": "选频道",
+                                              "id": "a18b775b-b7f1-4dd8-bcc1-1778bff44ddf"
+                                            },
+                                            {
+                                              "title": "看直播",
+                                              "id": "561214c6-31a4-44e6-a531-e97f10a78277",
+                                              "children": {
+                                                "attached": [
+                                                  {
+                                                    "title": "聊天",
+                                                    "id": "bb6491fa-a3c6-4c00-a9e1-857195d003bf"
+                                                  },
+                                                  {
+                                                    "title": "小黄车",
+                                                    "id": "5ea771da-7790-4fc8-8d90-f3cdb5c56cd0",
+                                                    "children": {
+                                                      "attached": [
+                                                        {
+                                                          "title": "商品列表",
+                                                          "id": "993849fd-c8aa-4b49-9aa2-2658ddcc9300"
+                                                        },
+                                                        {
+                                                          "title": "进入店铺",
+                                                          "id": "13bf722a-6cd6-452b-adf5-f6cc01d7b3f3"
+                                                        },
+                                                        {
+                                                          "title": "显示购买数量在图片",
+                                                          "id": "289e663a-ae77-414e-9bc1-a3e4aca85427"
+                                                        },
+                                                        {
+                                                          "title": "购买",
+                                                          "id": "c48efbe0-e28c-4b1f-a056-d0350cff59f4"
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "礼物",
+                                                    "id": "a914a528-ae1e-44ae-9e28-2dd33382b319",
+                                                    "children": {
+                                                      "attached": [
+                                                        {
+                                                          "title": "充值",
+                                                          "id": "cea3218d-ed85-4b6e-b176-a236692c5fc8"
+                                                        },
+                                                        {
+                                                          "title": "送礼物",
+                                                          "id": "eabd51be-ad6d-4e53-a5db-3a3ac2b2b887"
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "分享",
+                                                    "id": "005a5597-6cf8-477f-85cf-8f19951d4c6b"
+                                                  },
+                                                  {
+                                                    "title": "上链接/上商品",
+                                                    "id": "3554bd06-bf7a-491c-9bab-ad9400bc1e51",
+                                                    "children": {
+                                                      "attached": [
+                                                        {
+                                                          "title": "浮动商品框",
+                                                          "id": "5b311fb6-223a-49bb-a401-6d3f4033cf4a"
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "抢红包",
+                                                    "id": "049d3bc8-b23d-4286-84a7-f3cea2f1dd6b",
+                                                    "children": {
+                                                      "attached": [
+                                                        {
+                                                          "title": "蜗牛币",
+                                                          "id": "0e6c3e25-e0c2-46d9-a81b-00f5e2beb7f8"
+                                                        },
+                                                        {
+                                                          "title": "全直播房间播报",
+                                                          "id": "6250a934-8032-4d72-b76f-a7ef9c38596a"
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "title": "视频",
+                                        "id": "308cfbf7-66b8-4e5c-95b9-54ed33577f94",
+                                        "children": {
+                                          "attached": [
+                                            {
+                                              "title": "选频道",
+                                              "id": "4d3f152e-e3f7-40f9-8b97-cf4465c3263b"
+                                            },
+                                            {
+                                              "title": "看视频",
+                                              "id": "64f76002-6b2a-4a74-b6e7-791901d0b01e"
+                                            },
+                                            {
+                                              "title": "加关注",
+                                              "id": "7dc34ede-a15d-4bc4-851a-04a21585ed4e"
+                                            },
+                                            {
+                                              "title": "点赞",
+                                              "id": "34675fae-9e74-4e67-9af5-019213ebe8f8"
+                                            },
+                                            {
+                                              "title": "评论",
+                                              "id": "8e19de72-5172-48cc-aaf2-1b8275ee6d9b"
+                                            },
+                                            {
+                                              "title": "收藏",
+                                              "id": "2d303d3f-5773-4c33-8998-5043ebc58eb5"
+                                            },
+                                            {
+                                              "title": "分享",
+                                              "id": "8452a5f1-9a74-45c2-a471-458a93a5f344"
+                                            },
+                                            {
+                                              "title": "去主页",
+                                              "id": "c6315e12-5823-4ef6-9fb8-fb9c041d0e23"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "商城：商城/积分商城",
+                            "id": "9feca19e-2cf4-4396-b706-02fdd0ac5484",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "搜索框",
+                                  "id": "37e182f9-20c8-4766-8768-613df6a15c6e"
+                                },
+                                {
+                                  "title": "购物车",
+                                  "id": "a09035ef-64a6-45d2-ae2f-2e0e3bc1b0b6"
+                                },
+                                {
+                                  "title": "功能栏",
+                                  "id": "f166e2b5-ae7d-4f48-8da2-75c66300ef2c",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "我的订单",
+                                        "id": "1942fe85-6314-4992-a45e-ed4942cc2bd5"
+                                      },
+                                      {
+                                        "title": "评价",
+                                        "id": "cc9dfbd1-2043-48fe-8cdc-0cd3aad37dce"
+                                      },
+                                      {
+                                        "title": "退款/售后",
+                                        "id": "d776431f-2c46-45e6-84bf-9d0c4f4ce165"
+                                      },
+                                      {
+                                        "title": "客服消息",
+                                        "id": "5bf4a43e-ed19-48ef-b305-9f71ed9a6753"
+                                      },
+                                      {
+                                        "title": "卡劵",
+                                        "id": "9db1574e-e6de-420a-8afc-e89e6f632e43"
+                                      },
+                                      {
+                                        "title": "地址",
+                                        "id": "6da12a4e-d0cf-4abf-81f8-0c10ec372b55"
+                                      },
+                                      {
+                                        "title": "收藏",
+                                        "id": "d1c54ffe-fcb5-4f41-ac2c-01499239f863"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "品类栏",
+                                  "id": "e0b8e0cc-2312-4486-bcf4-c7c07b8e0bc4",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "海鲜生鲜",
+                                        "id": "3173b854-9961-42d2-83ca-43fca0c2d85a"
+                                      },
+                                      {
+                                        "title": "数码产品",
+                                        "id": "1460f8eb-d84f-404d-a2ef-4ee3db3557a2"
+                                      },
+                                      {
+                                        "title": "服装",
+                                        "id": "eb50f312-43b5-4fcc-bb74-440d4f18def0"
+                                      },
+                                      {
+                                        "title": "茶道文玩",
+                                        "id": "debdb424-cbcc-4e4a-9b6b-9e389241c0d9"
+                                      },
+                                      {
+                                        "title": "等等",
+                                        "id": "0a6d646d-e7e6-4012-9bb3-21b3958c013f"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "精选推荐商品",
+                                  "id": "84c67dac-3ddf-407b-abc3-b6a3eb15faeb"
+                                },
+                                {
+                                  "title": "商品列表",
+                                  "id": "5e7fb808-6d80-42e9-ba38-b9739030e071",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "一行一个商品",
+                                        "id": "ccb0803b-7b61-4d38-9bdd-9d3c23af544c",
+                                        "children": {
+                                          "attached": [
+                                            {
+                                              "title": "价格",
+                                              "id": "2d1d6b20-981a-4c5d-9a9b-30909159754d",
+                                              "children": {
+                                                "attached": [
+                                                  {
+                                                    "title": "原价",
+                                                    "id": "a90d8a7f-da6f-437e-bcc0-e7d491c9535a"
+                                                  },
+                                                  {
+                                                    "title": "活动价",
+                                                    "id": "1d617a8c-d822-4f11-ae59-97eca99f0278"
+                                                  },
+                                                  {
+                                                    "title": "会员价",
+                                                    "id": "ca7c9496-7fdc-4fe2-b9f5-b9193a788143"
+                                                  }
+                                                ]
+                                              }
+                                            },
+                                            {
+                                              "title": "支付",
+                                              "id": "fe2c15b9-cb78-41ca-83a1-1614afec8dac",
+                                              "children": {
+                                                "attached": [
+                                                  {
+                                                    "title": "积分",
+                                                    "id": "fc559bef-9441-4a1a-b15f-0538faab5a03"
+                                                  },
+                                                  {
+                                                    "title": "微信支付",
+                                                    "id": "ef9bdd68-4786-403b-9b25-ba58884d2c76"
+                                                  }
+                                                ]
+                                              }
+                                            },
+                                            {
+                                              "title": "商品详情",
+                                              "id": "bc988b16-bd50-4420-9039-29038dc9e151"
+                                            },
+                                            {
+                                              "title": "进入店铺",
+                                              "id": "496cd08e-f1e0-4e0c-a356-d63d3d743bdd"
+                                            },
+                                            {
+                                              "title": "客服",
+                                              "id": "ff44b885-67cd-4dda-92ac-e22f0b8380cd"
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "title": "直播显示",
+                                        "id": "3ad9c15b-129b-4e5f-bd99-fbb9f6811c78",
+                                        "children": {
+                                          "attached": [
+                                            {
+                                              "title": "进入直播间",
+                                              "id": "4d5d0e12-3937-4c4b-a372-af3cd7cd65f4"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "语音搜索",
+                            "id": "685cf8c3-ef33-429f-8a78-0c2c84142c90",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "搜索结果页",
+                                  "id": "733b4ca9-4aca-47cf-8fcd-5955157a8e6e",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "视频",
+                                        "id": "07dfe0e4-fc36-4f7b-b804-31440606521a"
+                                      },
+                                      {
+                                        "title": "直播",
+                                        "id": "93ab11f6-976d-4f78-8cb5-33ff8271a7ba"
+                                      },
+                                      {
+                                        "title": "商品",
+                                        "id": "a72aa3d0-7f19-4dcd-972a-57701abd00fa"
+                                      },
+                                      {
+                                        "title": "店铺",
+                                        "id": "95b09f2e-939a-459f-bfd0-b167494e15a6"
+                                      },
+                                      {
+                                        "title": "用户",
+                                        "id": "958dca8f-c87c-4630-bf64-3ecd343667a2"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "消息",
+                            "id": "d8e931f3-74f6-4ba2-a915-805801b5d5db",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "上-类别",
+                                  "id": "5cc53bb6-080a-4cbb-8b11-648a69c424a6",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "私信",
+                                        "id": "ea9b8322-d166-49e2-902b-adb8940d40aa"
+                                      },
+                                      {
+                                        "title": "互动",
+                                        "id": "b0e960a0-46df-4b63-9264-8016792495d6"
+                                      },
+                                      {
+                                        "title": "系统公告",
+                                        "id": "dc9fb8fa-6d22-43b1-af04-2562b15b3b21"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "下-消息列表",
+                                  "id": "769f60b3-de75-46c4-b286-30bac301f6a5"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "我的 /用户主页",
+                            "id": "422f5ee2-1142-40ec-851f-2d269c66ecaf",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "资料",
+                                  "id": "8b66c896-ea26-4f46-800a-0a29b4c60500"
+                                },
+                                {
+                                  "title": "关注",
+                                  "id": "4a9cb418-216e-4087-bcdc-60df8792af30"
+                                },
+                                {
+                                  "title": "粉丝",
+                                  "id": "b35d0c74-767d-4dab-b415-8832999f5e44"
+                                },
+                                {
+                                  "title": "收藏",
+                                  "id": "b05f633b-5dd8-4aad-a187-b8c2aea1c71c"
+                                },
+                                {
+                                  "title": "点赞",
+                                  "id": "ef9ea956-365a-4abc-9603-c24f92f9710d"
+                                },
+                                {
+                                  "title": "蜗牛币-他人主页不显示",
+                                  "id": "e7900edb-f0e2-4e0d-bc97-5727ff8a5ce5"
+                                },
+                                {
+                                  "title": "蜗牛豆-他人主页不显示",
+                                  "id": "53ace8a5-1c4f-49a8-843e-317c00e94cc5"
+                                },
+                                {
+                                  "title": "实名认证-他人主页不显示",
+                                  "id": "18871e84-980b-40c9-8d2a-6df840cd58e0"
+                                },
+                                {
+                                  "title": "客服中心-他人主页不显示",
+                                  "id": "8d4d3eac-1528-4779-9c9e-47c164fdb579"
+                                },
+                                {
+                                  "title": "主播申请-他人主页不显示",
+                                  "id": "b81cf373-6b05-4ae8-bfe7-11fbdb1c8315"
+                                },
+                                {
+                                  "title": "成为商户-他人主页不显示",
+                                  "id": "4be36419-7544-4026-9471-54a014b0195e"
+                                },
+                                {
+                                  "title": "好友邀请-他人主页不显示",
+                                  "id": "a6cc95e1-42bf-493e-97fb-4cd54f1bcce7"
+                                },
+                                {
+                                  "title": "设置-他人主页不显示",
+                                  "id": "5e5bb75f-c38a-4dc7-9810-0b6fdc630b8e",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "账号与安全",
+                                        "id": "611ac5bf-e14c-4ae1-9980-b5704f5bce1e"
+                                      },
+                                      {
+                                        "title": "关于我们",
+                                        "id": "ea0ce0f3-09f1-4a30-869d-90078ad0cb9b"
+                                      },
+                                      {
+                                        "title": "退出登陆",
+                                        "id": "2e09c16b-dba5-46b8-80e9-f65585119167"
+                                      },
+                                      {
+                                        "title": "开播提醒",
+                                        "id": "84ee6a5a-0b75-4a00-8594-118c88fe2ae8"
+                                      },
+                                      {
+                                        "title": "黑名单",
+                                        "id": "6d5a1801-1cc8-4141-a2c2-17afc5f621c6"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "视频列表",
+                                  "id": "6b89d30d-b0a0-4b18-bf78-1a60ebd48851"
+                                },
+                                {
+                                  "title": "点赞列表",
+                                  "id": "977165d8-067c-4f83-8831-f4d308c3a5c3"
+                                },
+                                {
+                                  "title": "收藏列表",
+                                  "id": "5db005d0-2b51-47ce-8c42-60426dc44ed2"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "推送消息",
+                            "id": "40703a14-aabf-4c3c-945f-18e354d3714a",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "系统通知",
+                                  "id": "c3aafe47-207a-44ba-8107-7c870b6df19c"
+                                },
+                                {
+                                  "title": "直播通知",
+                                  "id": "31c7de19-786b-4eb1-96f3-ea3bec784eae"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "IOS",
+                      "id": "de133ba8-a59b-415b-992f-d670957ba9e1",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "同Android",
+                            "id": "cc643550-bcea-4f44-8d4c-911a6e45817f"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "API服务",
+                      "id": "f2dd5a4d-1491-4e09-b437-c77ded70ebee",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "提供相应的API",
+                            "id": "87a11591-bffb-4993-861e-3916eaed3c3d"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "extensions": [],
+        "theme": {
+          "id": "fc3ada80-28db-445e-bdba-a5ad4eb27d2d",
+          "centralTopic": {
+            "id": "c5069014-b642-4cf5-bb50-1d29bd0df2a1",
+            "properties": {
+              "svg:fill": "#000229",
+              "line-color": "#000229",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "line-width": "2pt",
+              "line-pattern": "solid",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "arrow-end-class": "org.xmind.arrowShape.none",
+              "alignment-by-level": "actived",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "28pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "mainTopic": {
+            "id": "70cef26a-bf8a-4a75-a3ba-c39b54a6401d",
+            "properties": {
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "18pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left"
+            }
+          },
+          "subTopic": {
+            "id": "d5c7d9c0-e954-4c99-9e01-91cccd629c22",
+            "properties": {
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 400,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left",
+              "svg:fill": "none"
+            }
+          },
+          "summaryTopic": {
+            "id": "dc5d147f-2c2a-423f-8d4f-26c6e4cdc4ec",
+            "properties": {
+              "svg:fill": "none",
+              "border-line-color": "#000229",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "fo:font-family": "Montserrat",
+              "fo:font-style": "normal",
+              "fo:font-weight": "400",
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "calloutTopic": {
+            "id": "b2ccd2cb-e4d0-4c1d-8615-fea7a1b98854",
+            "properties": {
+              "svg:fill": "#000229",
+              "border-line-color": "#000229",
+              "callout-shape-class": "org.xmind.calloutTopicShape.balloon.ellipse",
+              "fill-pattern": "solid",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left"
+            }
+          },
+          "floatingTopic": {
+            "id": "1db99452-2bb0-4de8-87f5-cdeb8a591d7b",
+            "properties": {
+              "svg:fill": "#EEEBEE",
+              "border-line-color": "#EEEBEE",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "line-pattern": "solid",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "arrow-end-class": "org.xmind.arrowShape.none",
+              "fo:font-family": "Montserrat",
+              "fo:font-style": "normal",
+              "fo:font-weight": "normal",
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "boundary": {
+            "id": "beaff7ce-691f-481d-847c-c5f43d125660",
+            "properties": {
+              "svg:fill": "#000229",
+              "line-color": "#000229",
+              "shape-class": "org.xmind.boundaryShape.roundedRect",
+              "shape-corner": "20pt",
+              "line-width": "2",
+              "line-pattern": "dash",
+              "fill-pattern": "solid",
+              "fo:font-family": "'NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "summary": {
+            "id": "7e7d8704-9339-4a37-a8dc-f3a3aa2f4cf2",
+            "properties": {
+              "line-color": "#000229",
+              "shape-class": "org.xmind.summaryShape.square",
+              "line-width": "2pt",
+              "line-pattern": "solid",
+              "line-corner": "8pt"
+            }
+          },
+          "relationship": {
+            "id": "81c8d0be-6082-4a1c-b88c-23b1445e0647",
+            "properties": {
+              "line-color": "#000229",
+              "shape-class": "org.xmind.relationshipShape.curved",
+              "line-width": "2",
+              "line-pattern": "dash",
+              "arrow-begin-class": "org.xmind.arrowShape.none",
+              "arrow-end-class": "org.xmind.arrowShape.triangle",
+              "fo:font-family": "'NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "13pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "map": {
+            "id": "ea5bbe08-7b7a-4b13-a4ee-49b20dcc4de2",
+            "properties": {
+              "svg:fill": "#FFFFFF",
+              "multi-line-colors": "#F9423A #F6A04D #F3D321 #00BC7B #486AFF #4D49BE",
+              "color-list": "#000229 #1F2766 #52CC83 #4D86DB #99142F #245570",
+              "line-tapered": "none"
+            }
+          },
+          "importantTopic": {
+            "id": "6c4e5a0a-db82-4dc6-9816-213ad1a38238",
+            "properties": {
+              "svg:fill": "#460400",
+              "fill-pattern": "solid"
+            }
+          },
+          "minorTopic": {
+            "id": "febf0c47-d75e-4149-a07f-a44cf847e7ab",
+            "properties": {
+              "svg:fill": "#703D00",
+              "fill-pattern": "solid"
+            }
+          },
+          "colorThemeId": "Rainbow-#000229-MULTI_LINE_COLORS",
+          "expiredTopic": {
+            "id": "de27144f-305c-48fd-8134-0e7da6378c9d",
+            "properties": {
+              "fo:text-decoration": "line-through",
+              "svg:fill": "none"
+            }
+          },
+          "global": {
+            "id": "c07a86dd-c0bb-443f-9155-7a7c9992ddc8",
+            "properties": {}
+          },
+          "skeletonThemeId": "a148ee55687bdfc44af2fa5f16"
+        },
+        "topicPositioning": "fixed",
+        "coreVersion": "2.54.0"
+      }
+    }
+  ],
+  "蜗牛backend.xmind": [
+    {
+      "path": "画布 1",
+      "title": "画布 1",
+      "topic": {
+        "id": "d11b21e05dfb52ec88f9e9543f",
+        "class": "sheet",
+        "title": "画布 1",
+        "rootTopic": {
+          "id": "57287525f719b9a4bf243a5212",
+          "class": "topic",
+          "title": "🐌",
+          "structureClass": "org.xmind.ui.logic.right",
+          "children": {
+            "attached": [
+              {
+                "id": "481ac27538caaf0aa331b8bdb3",
+                "title": "平台后台管理系统",
+                "children": {
+                  "attached": [
+                    {
+                      "title": "首页",
+                      "id": "43390da4-81d2-4be6-8a00-c37afa74a35d",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "表格统计",
+                            "id": "1e424fa6-1987-4add-ae0b-904e7b26ffdf",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "用户数",
+                                  "id": "0bca8743-2bbd-4c24-bd32-f527bdf64462"
+                                },
+                                {
+                                  "title": "新增用户",
+                                  "id": "1bb04b85-faa5-4608-883b-f2d5dec9ed8a"
+                                },
+                                {
+                                  "title": "交易额统计",
+                                  "id": "d8007319-0875-423d-821e-199e091dfc48"
+                                },
+                                {
+                                  "title": "订单统计",
+                                  "id": "3d58b4d8-1313-4608-a63d-8116d52faabc"
+                                },
+                                {
+                                  "title": "直播统计",
+                                  "id": "61a28673-1820-4ae6-a5c5-35f1f592a3e6"
+                                },
+                                {
+                                  "title": "推广统计",
+                                  "id": "fab1e57c-d8e1-423b-a025-973d85663fe6"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "待处理消息",
+                            "id": "0afffe0b-8fae-4470-aa69-aa837f95a8db",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "商品审批",
+                                  "id": "7579015c-36ae-41a3-ac93-532538335114"
+                                },
+                                {
+                                  "title": "直播审批",
+                                  "id": "6af199fb-b830-49a3-af77-94028043cfb0"
+                                },
+                                {
+                                  "title": "发布审批",
+                                  "id": "f3efd6db-4941-4d6d-960c-999b37326394"
+                                },
+                                {
+                                  "title": "实名审批",
+                                  "id": "64c3ad38-a7e7-4ef2-8415-eedef560e4d7"
+                                },
+                                {
+                                  "title": "待发货",
+                                  "id": "b2ee49a0-615f-45a5-87ab-c4a5daf0f588"
+                                },
+                                {
+                                  "title": "退货",
+                                  "id": "f7b10b7f-7cde-49db-8e53-173dfca23fee"
+                                },
+                                {
+                                  "title": "退款",
+                                  "id": "0e6c3b52-8d9f-4f8a-9aa8-14d33db43056"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "用户管理",
+                      "id": "8a831c30-d4c7-44bf-91d0-ab21cc23fc40",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "用户列表",
+                            "id": "dd2abc9a-a205-4cf5-9384-cf7f5d1f660d"
+                          },
+                          {
+                            "title": "身份管理",
+                            "id": "67a4b3e6-93f8-45d3-a441-76c8b551b651",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "普通用户",
+                                  "id": "61d463d3-6122-48b2-b76c-79aaa930536c"
+                                },
+                                {
+                                  "title": "直播博主",
+                                  "id": "d86d52d5-2c65-4b72-a9ca-cf6c4493a481"
+                                },
+                                {
+                                  "title": "巡管/鉴黄师",
+                                  "id": "6c35bacc-a744-46fa-ade3-79c5428a50c6",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "封直播间",
+                                        "id": "615d8cea-f2bb-4f01-9ab2-44cd9c0e606d"
+                                      },
+                                      {
+                                        "title": "删视频",
+                                        "id": "0b750b88-395e-4299-9b93-8fd0b01ffff7"
+                                      },
+                                      {
+                                        "title": "删相册",
+                                        "id": "5d95af6c-7fcf-4816-860a-d541c2ff7dfc"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "禁用/启用",
+                            "id": "06b94f38-ec12-4e6e-89d7-d9953267ad73"
+                          },
+                          {
+                            "title": "实名审批",
+                            "id": "a4e30ee6-5a47-423f-b3b9-377a0c476452"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "权限管理",
+                      "id": "31bfdf39-4420-4c92-8eed-3a6a9e92812c",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "管理员",
+                            "id": "380e70c2-5706-4efd-a238-2164e6eaea72",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "超级管理员",
+                                  "id": "53e6b6ed-64fc-4a8c-9050-1209af7942cf"
+                                },
+                                {
+                                  "title": "直播巡管",
+                                  "id": "31c46ff3-c80b-4f3b-ab09-d0202afbb2b3"
+                                },
+                                {
+                                  "title": "财务",
+                                  "id": "c6f3e5c7-5567-473e-8942-a79bab1d51da"
+                                },
+                                {
+                                  "title": "商家/厂家",
+                                  "id": "a52d16a9-41cf-40b8-a638-00a57cef78ca"
+                                },
+                                {
+                                  "title": "客服",
+                                  "id": "2c502c04-b00b-4cd2-b4a3-d872dcf1099b"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "新增/修改/删除",
+                            "id": "98b99615-61eb-4155-b213-440b1bfa5eea"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "直播管理",
+                      "id": "5fa2b769-b432-4b24-a2c2-afdd230f996c",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "直播博主列表",
+                            "id": "7a046a3c-e7a6-4f67-9eff-e62eedf5fb96"
+                          },
+                          {
+                            "title": "直播申请",
+                            "id": "2edafb0c-e87d-425a-ae25-1f464d31ad3d"
+                          },
+                          {
+                            "title": "内容审核",
+                            "id": "7a152da3-a8a7-4c58-9b45-1c2489f58ad0",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "自动审批",
+                                  "id": "8e4cf8d6-0eca-4a74-9924-17ce4bb82e8c"
+                                },
+                                {
+                                  "title": "人工审批",
+                                  "id": "3324f6c9-1d12-470d-a51c-908e19890966"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "封禁",
+                            "id": "40007a0d-458b-496f-9e1c-c3ddc77342bf"
+                          },
+                          {
+                            "title": "热度修改",
+                            "id": "9891d023-67df-462f-8aa5-f9f90868bc6c"
+                          },
+                          {
+                            "title": "频道管理",
+                            "id": "a6fc118f-2cfb-4c00-9171-c0b98bc5b693"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "视频管理",
+                      "id": "b9dc4c5a-5653-4b84-8cce-4b0b200212ba",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "同上",
+                            "id": "ad60aaa5-2f52-46aa-8e2a-fd2777aeddec"
+                          },
+                          {
+                            "title": "视频浏览",
+                            "id": "2a6a6641-edd6-49d3-9dca-126eb26e4744"
+                          },
+                          {
+                            "title": "上传视频",
+                            "id": "c58a0688-7d5c-46bb-a1cc-5a6193e04c15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "商品管理",
+                      "id": "aa558cd7-3010-4fda-9b15-3d667b1087d8",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商品列表",
+                            "id": "4c373321-c81c-4d4b-aa53-1c1501c0caee"
+                          },
+                          {
+                            "title": "新增/编辑/删除",
+                            "id": "42625f0b-0381-4619-9bca-9ea944c5d187"
+                          },
+                          {
+                            "title": "上架",
+                            "id": "3f3d831d-4ffb-4800-9041-32ef490d0d8e"
+                          },
+                          {
+                            "title": "下架",
+                            "id": "d52703a0-7d01-4db9-849e-eed63b5d78cb"
+                          },
+                          {
+                            "title": "分区管理",
+                            "id": "605f4ed6-3aca-4ab0-902c-9e6050a02144"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "积分管理",
+                      "id": "9142587c-87ef-4a22-ba9d-23a0b0fecbfc"
+                    },
+                    {
+                      "title": "订单管理",
+                      "id": "9128c2a4-8bb6-414d-bf1d-be51759d6623",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "订单列表",
+                            "id": "e0837baa-d4e2-418b-94fc-7874eef12f5a",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "待支付",
+                                  "id": "325785cf-042f-4571-8a37-63df49271e1a"
+                                },
+                                {
+                                  "title": "代发货",
+                                  "id": "f28e46c9-ac18-4c6a-9bc9-f486aacf5970",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "发货",
+                                        "id": "ead68c88-ce93-4a15-b08c-2678f6964af9"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "已发货",
+                                  "id": "ce28b3da-2517-4a33-a70f-76fcf1107289"
+                                },
+                                {
+                                  "title": "退款/退货",
+                                  "id": "bd28e8db-4bba-42ba-9b04-701e871ce1dc",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "微信退款",
+                                        "id": "fbdf2988-a100-4dbe-ade2-f8063c08b434"
+                                      },
+                                      {
+                                        "title": "积分退还",
+                                        "id": "126c9d14-a28a-49d5-ba5f-e14d1480e505"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "物流追踪",
+                                  "id": "d103914b-5027-49d9-ac69-c375d57053f6"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "财务管理",
+                      "id": "a8dc5f0d-5b8c-4211-a7af-f768b6f54b6f",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "财务报表",
+                            "id": "21cefd05-9bd9-4a37-92fc-773a051c3695",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "查看",
+                                  "id": "7bec4eea-8366-4ccc-bb70-0497dd298c04"
+                                },
+                                {
+                                  "title": "导出excel",
+                                  "id": "ec6f781b-55a7-4e2c-add8-e1e741370a0c"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "对账",
+                            "id": "e726047f-b340-4983-87bd-8d3288c90f7f"
+                          },
+                          {
+                            "title": "结算",
+                            "id": "36e4c863-272c-4e14-bf17-15add87c24f0"
+                          },
+                          {
+                            "title": "退款操作",
+                            "id": "05d0b4c3-ae8c-47cd-bb89-52cfc02970e6"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "投诉建议管理",
+                      "id": "b9cb1e53-a359-4b5b-b1f0-9ae68900a9d9"
+                    },
+                    {
+                      "title": "敏感日志管理",
+                      "id": "851a700a-f8e6-46b4-88a3-9faa8c8717b4"
+                    },
+                    {
+                      "title": "告警管理",
+                      "id": "27f6d456-faf8-433d-a3d3-b2a676b114e3"
+                    },
+                    {
+                      "title": "推送管理",
+                      "id": "ac35daa3-a386-4853-8717-238a1d260437"
+                    },
+                    {
+                      "title": "广告管理",
+                      "id": "4c655d7a-8d99-4c42-90d4-38197df46656",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商品排序",
+                            "id": "c2fe2b06-17e2-4393-ad4f-b7982c4661c9"
+                          },
+                          {
+                            "title": "首页广告区",
+                            "id": "fb544c9b-599d-448c-a9d9-247a50a3fb76"
+                          },
+                          {
+                            "title": "商城热销推荐/9.9",
+                            "id": "371e08f7-7430-4500-86cc-9cfcd8c9ac52"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "商户管理",
+                      "id": "30b8282d-8c71-4a2e-92ea-e840d27a45af",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商户列表",
+                            "id": "2fc60146-f99a-4ee3-8a1b-73a30ae71965"
+                          },
+                          {
+                            "title": "商户审批",
+                            "id": "eb3c1ce2-4c05-4bb8-a4d7-597fc13dff26"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "title": "商户后台管理系统",
+                "id": "34baf99b-3b8a-4022-84e1-a5e4b0f8cded",
+                "children": {
+                  "attached": [
+                    {
+                      "title": "订单管理",
+                      "id": "3910ab98-ebf5-46b6-a830-9d231b97764a",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "订单列表",
+                            "id": "57f5a5c4-a646-40f2-a7fb-db0af56ad1e1"
+                          },
+                          {
+                            "title": "发货",
+                            "id": "5adb10da-5d94-4332-a403-97b480ef06f9"
+                          },
+                          {
+                            "title": "退货申请",
+                            "id": "9a8468f7-29d9-458b-a1f2-6824be33d11a"
+                          },
+                          {
+                            "title": "退款申请",
+                            "id": "61acbc1a-41db-4922-97d7-28ed534524c4"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "财务管理",
+                      "id": "17ef2d51-b881-4d37-96d2-746e13871eb2",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "对账",
+                            "id": "b1c6129c-93fd-4068-a8d9-0f0384a664f8"
+                          },
+                          {
+                            "title": "结算",
+                            "id": "69db2355-5194-4c13-98ec-4bb7631f314d"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "直播管理",
+                      "id": "0ad9da58-77a0-48f0-aaac-7952fc8b8588",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "发蜗牛币红包",
+                            "id": "8473e343-7005-40f6-95dc-c9f985b4d9f0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "商品管理",
+                      "id": "88d09ef7-f389-46c8-a3ee-fb585532f081",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商品列表",
+                            "id": "79f15ba8-8435-4cc4-9c66-6c80450180fa"
+                          },
+                          {
+                            "title": "新增商品",
+                            "id": "1e722303-caa1-4608-a2c9-d688171d5ada"
+                          },
+                          {
+                            "title": "删除商品",
+                            "id": "0e920b71-5e23-46f9-b0b2-51ea1bd348f0"
+                          },
+                          {
+                            "title": "修改商品",
+                            "id": "f73345b0-1f04-455e-b823-e4210e0d2cb8"
+                          },
+                          {
+                            "title": "上架申请",
+                            "id": "95860cc7-c662-44eb-b2ee-ca7acbe58621"
+                          },
+                          {
+                            "title": "下架商品",
+                            "id": "bdb93434-a1bd-48a8-86ec-30e6d54fbce0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "客服消息",
+                      "id": "b26c9cfe-6fcc-47d1-add5-299e0e9aaabb"
+                    },
+                    {
+                      "title": "权限管理",
+                      "id": "5430c734-3be9-4b24-816e-8164f3d57455",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商户管理",
+                            "id": "71962dc1-91a6-4ea1-a6d2-89bc9045ec27"
+                          },
+                          {
+                            "title": "财务",
+                            "id": "b6c0988c-ee6f-4f94-a005-0a3db8a9ae10"
+                          },
+                          {
+                            "title": "客服",
+                            "id": "92dd6640-8cb7-49c7-9b94-839478d81856"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "extensions": [],
+        "theme": {
+          "id": "fc3ada80-28db-445e-bdba-a5ad4eb27d2d",
+          "centralTopic": {
+            "id": "c5069014-b642-4cf5-bb50-1d29bd0df2a1",
+            "properties": {
+              "svg:fill": "#000229",
+              "line-color": "#000229",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "line-width": "2pt",
+              "line-pattern": "solid",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "arrow-end-class": "org.xmind.arrowShape.none",
+              "alignment-by-level": "actived",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "28pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "mainTopic": {
+            "id": "70cef26a-bf8a-4a75-a3ba-c39b54a6401d",
+            "properties": {
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "18pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left"
+            }
+          },
+          "subTopic": {
+            "id": "d5c7d9c0-e954-4c99-9e01-91cccd629c22",
+            "properties": {
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 400,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left",
+              "svg:fill": "none"
+            }
+          },
+          "summaryTopic": {
+            "id": "dc5d147f-2c2a-423f-8d4f-26c6e4cdc4ec",
+            "properties": {
+              "svg:fill": "none",
+              "border-line-color": "#000229",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "fo:font-family": "Montserrat",
+              "fo:font-style": "normal",
+              "fo:font-weight": "400",
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "calloutTopic": {
+            "id": "b2ccd2cb-e4d0-4c1d-8615-fea7a1b98854",
+            "properties": {
+              "svg:fill": "#000229",
+              "border-line-color": "#000229",
+              "callout-shape-class": "org.xmind.calloutTopicShape.balloon.ellipse",
+              "fill-pattern": "solid",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left"
+            }
+          },
+          "floatingTopic": {
+            "id": "1db99452-2bb0-4de8-87f5-cdeb8a591d7b",
+            "properties": {
+              "svg:fill": "#EEEBEE",
+              "border-line-color": "#EEEBEE",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "line-pattern": "solid",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "arrow-end-class": "org.xmind.arrowShape.none",
+              "fo:font-family": "Montserrat",
+              "fo:font-style": "normal",
+              "fo:font-weight": "normal",
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "boundary": {
+            "id": "beaff7ce-691f-481d-847c-c5f43d125660",
+            "properties": {
+              "svg:fill": "#000229",
+              "line-color": "#000229",
+              "shape-class": "org.xmind.boundaryShape.roundedRect",
+              "shape-corner": "20pt",
+              "line-width": "2",
+              "line-pattern": "dash",
+              "fill-pattern": "solid",
+              "fo:font-family": "'NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "summary": {
+            "id": "7e7d8704-9339-4a37-a8dc-f3a3aa2f4cf2",
+            "properties": {
+              "line-color": "#000229",
+              "shape-class": "org.xmind.summaryShape.square",
+              "line-width": "2pt",
+              "line-pattern": "solid",
+              "line-corner": "8pt"
+            }
+          },
+          "relationship": {
+            "id": "81c8d0be-6082-4a1c-b88c-23b1445e0647",
+            "properties": {
+              "line-color": "#000229",
+              "shape-class": "org.xmind.relationshipShape.curved",
+              "line-width": "2",
+              "line-pattern": "dash",
+              "arrow-begin-class": "org.xmind.arrowShape.none",
+              "arrow-end-class": "org.xmind.arrowShape.triangle",
+              "fo:font-family": "'NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "13pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "map": {
+            "id": "ea5bbe08-7b7a-4b13-a4ee-49b20dcc4de2",
+            "properties": {
+              "svg:fill": "#FFFFFF",
+              "multi-line-colors": "#F9423A #F6A04D #F3D321 #00BC7B #486AFF #4D49BE",
+              "color-list": "#000229 #1F2766 #52CC83 #4D86DB #99142F #245570",
+              "line-tapered": "none"
+            }
+          },
+          "importantTopic": {
+            "id": "6c4e5a0a-db82-4dc6-9816-213ad1a38238",
+            "properties": {
+              "svg:fill": "#460400",
+              "fill-pattern": "solid"
+            }
+          },
+          "minorTopic": {
+            "id": "febf0c47-d75e-4149-a07f-a44cf847e7ab",
+            "properties": {
+              "svg:fill": "#703D00",
+              "fill-pattern": "solid"
+            }
+          },
+          "colorThemeId": "Rainbow-#000229-MULTI_LINE_COLORS",
+          "expiredTopic": {
+            "id": "de27144f-305c-48fd-8134-0e7da6378c9d",
+            "properties": {
+              "fo:text-decoration": "line-through",
+              "svg:fill": "none"
+            }
+          },
+          "global": {
+            "id": "c07a86dd-c0bb-443f-9155-7a7c9992ddc8",
+            "properties": {}
+          },
+          "skeletonThemeId": "a148ee55687bdfc44af2fa5f16"
+        },
+        "topicPositioning": "fixed",
+        "coreVersion": "2.54.0"
+      }
+    }
+  ],
+  "蜗牛all.xmind": [
+    {
+      "path": "画布 1",
+      "title": "画布 1",
+      "topic": {
+        "id": "d11b21e05dfb52ec88f9e9543f",
+        "class": "sheet",
+        "title": "画布 1",
+        "rootTopic": {
+          "id": "57287525f719b9a4bf243a5212",
+          "class": "topic",
+          "title": "🐌",
+          "structureClass": "org.xmind.ui.logic.right",
+          "children": {
+            "attached": [
+              {
+                "id": "30ba8df5181b69aa07651b4a80",
+                "title": "APP",
+                "children": {
+                  "attached": [
+                    {
+                      "title": "Android",
+                      "id": "a8604913-f33f-443d-a5af-6a718856f165",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "注册登陆-本机号码一键登录",
+                            "id": "8e6105fa-02e9-4faa-8abc-6b9bbcd2f9f4"
+                          },
+                          {
+                            "title": "安装启动页介绍3页",
+                            "id": "3f8c9bda-cace-455f-8b70-f3992c146c0a"
+                          },
+                          {
+                            "title": "启动页广告 5秒",
+                            "id": "3f4ad2b9-1dbc-4107-8b35-a6ab369c3cc2"
+                          },
+                          {
+                            "title": "首页",
+                            "id": "0a9e557c-ff83-4f5a-8a74-9be2fa511403",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "天气/搜索框",
+                                  "id": "14ddde56-5c9d-40df-93b7-221ed87ffb1a",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "搜索结果页",
+                                        "id": "5ab16be7-c4c1-4bf7-910e-0ff97b35dc0c"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "公告",
+                                  "id": "5ba5a133-e59e-49e5-8b35-e7a274de87ba"
+                                },
+                                {
+                                  "title": "功能入口区域",
+                                  "id": "91be4540-b69d-47ea-9927-479f5e6db35c",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "任务",
+                                        "id": "b58a3ad8-5887-482c-b6ca-7bdf01e8f005"
+                                      },
+                                      {
+                                        "title": "旅游-敬请期待",
+                                        "id": "e0d31c9f-9b7a-426c-8318-f4c99f7d46d8"
+                                      },
+                                      {
+                                        "title": "广场舞-敬请期待",
+                                        "id": "8df8385c-1297-4814-be14-c4376ddebbb5"
+                                      },
+                                      {
+                                        "title": "老年大学-敬请期待",
+                                        "id": "55edb53e-f2ed-485f-9864-5db7d0cedd48"
+                                      },
+                                      {
+                                        "title": "棋牌娱乐-敬请期待",
+                                        "id": "3441acea-2d16-459b-b233-7ce185be6d3b"
+                                      },
+                                      {
+                                        "title": "更多",
+                                        "id": "987b5835-71af-405f-a5c2-cdf0da8b4981"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "商品/广告区域",
+                                  "id": "dc698a14-7827-4693-b1c6-d38e4e04f467",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "滚动播放图片",
+                                        "id": "288fb5e4-b68c-48f6-be56-4e8a0d3414f2"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "视频/直播区域",
+                                  "id": "bf8dd61a-55b1-4c3e-b828-6228944ecadc",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "直播",
+                                        "id": "f24cbc52-412f-415f-93a2-491c53a7aff6",
+                                        "children": {
+                                          "attached": [
+                                            {
+                                              "title": "选频道",
+                                              "id": "a18b775b-b7f1-4dd8-bcc1-1778bff44ddf"
+                                            },
+                                            {
+                                              "title": "看直播",
+                                              "id": "561214c6-31a4-44e6-a531-e97f10a78277",
+                                              "children": {
+                                                "attached": [
+                                                  {
+                                                    "title": "聊天",
+                                                    "id": "bb6491fa-a3c6-4c00-a9e1-857195d003bf"
+                                                  },
+                                                  {
+                                                    "title": "小黄车",
+                                                    "id": "5ea771da-7790-4fc8-8d90-f3cdb5c56cd0",
+                                                    "children": {
+                                                      "attached": [
+                                                        {
+                                                          "title": "商品列表",
+                                                          "id": "993849fd-c8aa-4b49-9aa2-2658ddcc9300"
+                                                        },
+                                                        {
+                                                          "title": "进入店铺",
+                                                          "id": "13bf722a-6cd6-452b-adf5-f6cc01d7b3f3"
+                                                        },
+                                                        {
+                                                          "title": "显示购买数量在图片",
+                                                          "id": "289e663a-ae77-414e-9bc1-a3e4aca85427"
+                                                        },
+                                                        {
+                                                          "title": "购买",
+                                                          "id": "c48efbe0-e28c-4b1f-a056-d0350cff59f4"
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "礼物",
+                                                    "id": "a914a528-ae1e-44ae-9e28-2dd33382b319",
+                                                    "children": {
+                                                      "attached": [
+                                                        {
+                                                          "title": "充值",
+                                                          "id": "cea3218d-ed85-4b6e-b176-a236692c5fc8"
+                                                        },
+                                                        {
+                                                          "title": "送礼物",
+                                                          "id": "eabd51be-ad6d-4e53-a5db-3a3ac2b2b887"
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "分享",
+                                                    "id": "005a5597-6cf8-477f-85cf-8f19951d4c6b"
+                                                  },
+                                                  {
+                                                    "title": "上链接/上商品",
+                                                    "id": "3554bd06-bf7a-491c-9bab-ad9400bc1e51",
+                                                    "children": {
+                                                      "attached": [
+                                                        {
+                                                          "title": "浮动商品框",
+                                                          "id": "5b311fb6-223a-49bb-a401-6d3f4033cf4a"
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "抢红包",
+                                                    "id": "049d3bc8-b23d-4286-84a7-f3cea2f1dd6b",
+                                                    "children": {
+                                                      "attached": [
+                                                        {
+                                                          "title": "蜗牛币",
+                                                          "id": "0e6c3e25-e0c2-46d9-a81b-00f5e2beb7f8"
+                                                        },
+                                                        {
+                                                          "title": "全直播房间播报",
+                                                          "id": "6250a934-8032-4d72-b76f-a7ef9c38596a"
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "title": "视频",
+                                        "id": "308cfbf7-66b8-4e5c-95b9-54ed33577f94",
+                                        "children": {
+                                          "attached": [
+                                            {
+                                              "title": "选频道",
+                                              "id": "4d3f152e-e3f7-40f9-8b97-cf4465c3263b"
+                                            },
+                                            {
+                                              "title": "看视频",
+                                              "id": "64f76002-6b2a-4a74-b6e7-791901d0b01e"
+                                            },
+                                            {
+                                              "title": "加关注",
+                                              "id": "7dc34ede-a15d-4bc4-851a-04a21585ed4e"
+                                            },
+                                            {
+                                              "title": "点赞",
+                                              "id": "34675fae-9e74-4e67-9af5-019213ebe8f8"
+                                            },
+                                            {
+                                              "title": "评论",
+                                              "id": "8e19de72-5172-48cc-aaf2-1b8275ee6d9b"
+                                            },
+                                            {
+                                              "title": "收藏",
+                                              "id": "2d303d3f-5773-4c33-8998-5043ebc58eb5"
+                                            },
+                                            {
+                                              "title": "分享",
+                                              "id": "8452a5f1-9a74-45c2-a471-458a93a5f344"
+                                            },
+                                            {
+                                              "title": "去主页",
+                                              "id": "c6315e12-5823-4ef6-9fb8-fb9c041d0e23"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "商城：商城/积分商城",
+                            "id": "9feca19e-2cf4-4396-b706-02fdd0ac5484",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "搜索框",
+                                  "id": "37e182f9-20c8-4766-8768-613df6a15c6e"
+                                },
+                                {
+                                  "title": "购物车",
+                                  "id": "a09035ef-64a6-45d2-ae2f-2e0e3bc1b0b6"
+                                },
+                                {
+                                  "title": "功能栏",
+                                  "id": "f166e2b5-ae7d-4f48-8da2-75c66300ef2c",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "我的订单",
+                                        "id": "1942fe85-6314-4992-a45e-ed4942cc2bd5"
+                                      },
+                                      {
+                                        "title": "评价",
+                                        "id": "cc9dfbd1-2043-48fe-8cdc-0cd3aad37dce"
+                                      },
+                                      {
+                                        "title": "退款/售后",
+                                        "id": "d776431f-2c46-45e6-84bf-9d0c4f4ce165"
+                                      },
+                                      {
+                                        "title": "客服消息",
+                                        "id": "5bf4a43e-ed19-48ef-b305-9f71ed9a6753"
+                                      },
+                                      {
+                                        "title": "卡劵",
+                                        "id": "9db1574e-e6de-420a-8afc-e89e6f632e43"
+                                      },
+                                      {
+                                        "title": "地址",
+                                        "id": "6da12a4e-d0cf-4abf-81f8-0c10ec372b55"
+                                      },
+                                      {
+                                        "title": "收藏",
+                                        "id": "d1c54ffe-fcb5-4f41-ac2c-01499239f863"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "品类栏",
+                                  "id": "e0b8e0cc-2312-4486-bcf4-c7c07b8e0bc4",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "海鲜生鲜",
+                                        "id": "3173b854-9961-42d2-83ca-43fca0c2d85a"
+                                      },
+                                      {
+                                        "title": "数码产品",
+                                        "id": "1460f8eb-d84f-404d-a2ef-4ee3db3557a2"
+                                      },
+                                      {
+                                        "title": "服装",
+                                        "id": "eb50f312-43b5-4fcc-bb74-440d4f18def0"
+                                      },
+                                      {
+                                        "title": "茶道文玩",
+                                        "id": "debdb424-cbcc-4e4a-9b6b-9e389241c0d9"
+                                      },
+                                      {
+                                        "title": "等等",
+                                        "id": "0a6d646d-e7e6-4012-9bb3-21b3958c013f"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "精选推荐商品",
+                                  "id": "84c67dac-3ddf-407b-abc3-b6a3eb15faeb"
+                                },
+                                {
+                                  "title": "商品列表",
+                                  "id": "5e7fb808-6d80-42e9-ba38-b9739030e071",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "一行一个商品",
+                                        "id": "ccb0803b-7b61-4d38-9bdd-9d3c23af544c",
+                                        "children": {
+                                          "attached": [
+                                            {
+                                              "title": "价格",
+                                              "id": "2d1d6b20-981a-4c5d-9a9b-30909159754d",
+                                              "children": {
+                                                "attached": [
+                                                  {
+                                                    "title": "原价",
+                                                    "id": "a90d8a7f-da6f-437e-bcc0-e7d491c9535a"
+                                                  },
+                                                  {
+                                                    "title": "活动价",
+                                                    "id": "1d617a8c-d822-4f11-ae59-97eca99f0278"
+                                                  },
+                                                  {
+                                                    "title": "会员价",
+                                                    "id": "ca7c9496-7fdc-4fe2-b9f5-b9193a788143"
+                                                  }
+                                                ]
+                                              }
+                                            },
+                                            {
+                                              "title": "支付",
+                                              "id": "fe2c15b9-cb78-41ca-83a1-1614afec8dac",
+                                              "children": {
+                                                "attached": [
+                                                  {
+                                                    "title": "积分",
+                                                    "id": "fc559bef-9441-4a1a-b15f-0538faab5a03"
+                                                  },
+                                                  {
+                                                    "title": "微信支付",
+                                                    "id": "ef9bdd68-4786-403b-9b25-ba58884d2c76"
+                                                  }
+                                                ]
+                                              }
+                                            },
+                                            {
+                                              "title": "商品详情",
+                                              "id": "bc988b16-bd50-4420-9039-29038dc9e151"
+                                            },
+                                            {
+                                              "title": "进入店铺",
+                                              "id": "496cd08e-f1e0-4e0c-a356-d63d3d743bdd"
+                                            },
+                                            {
+                                              "title": "客服",
+                                              "id": "ff44b885-67cd-4dda-92ac-e22f0b8380cd"
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "title": "直播显示",
+                                        "id": "3ad9c15b-129b-4e5f-bd99-fbb9f6811c78",
+                                        "children": {
+                                          "attached": [
+                                            {
+                                              "title": "进入直播间",
+                                              "id": "4d5d0e12-3937-4c4b-a372-af3cd7cd65f4"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "语音搜索",
+                            "id": "685cf8c3-ef33-429f-8a78-0c2c84142c90",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "搜索结果页",
+                                  "id": "733b4ca9-4aca-47cf-8fcd-5955157a8e6e",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "视频",
+                                        "id": "07dfe0e4-fc36-4f7b-b804-31440606521a"
+                                      },
+                                      {
+                                        "title": "直播",
+                                        "id": "93ab11f6-976d-4f78-8cb5-33ff8271a7ba"
+                                      },
+                                      {
+                                        "title": "商品",
+                                        "id": "a72aa3d0-7f19-4dcd-972a-57701abd00fa"
+                                      },
+                                      {
+                                        "title": "店铺",
+                                        "id": "95b09f2e-939a-459f-bfd0-b167494e15a6"
+                                      },
+                                      {
+                                        "title": "用户",
+                                        "id": "958dca8f-c87c-4630-bf64-3ecd343667a2"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "消息",
+                            "id": "d8e931f3-74f6-4ba2-a915-805801b5d5db",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "上-类别",
+                                  "id": "5cc53bb6-080a-4cbb-8b11-648a69c424a6",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "私信",
+                                        "id": "ea9b8322-d166-49e2-902b-adb8940d40aa"
+                                      },
+                                      {
+                                        "title": "互动",
+                                        "id": "b0e960a0-46df-4b63-9264-8016792495d6"
+                                      },
+                                      {
+                                        "title": "系统公告",
+                                        "id": "dc9fb8fa-6d22-43b1-af04-2562b15b3b21"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "下-消息列表",
+                                  "id": "769f60b3-de75-46c4-b286-30bac301f6a5"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "我的 /用户主页",
+                            "id": "422f5ee2-1142-40ec-851f-2d269c66ecaf",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "资料",
+                                  "id": "8b66c896-ea26-4f46-800a-0a29b4c60500"
+                                },
+                                {
+                                  "title": "关注",
+                                  "id": "4a9cb418-216e-4087-bcdc-60df8792af30"
+                                },
+                                {
+                                  "title": "粉丝",
+                                  "id": "b35d0c74-767d-4dab-b415-8832999f5e44"
+                                },
+                                {
+                                  "title": "收藏",
+                                  "id": "b05f633b-5dd8-4aad-a187-b8c2aea1c71c"
+                                },
+                                {
+                                  "title": "点赞",
+                                  "id": "ef9ea956-365a-4abc-9603-c24f92f9710d"
+                                },
+                                {
+                                  "title": "蜗牛币-他人主页不显示",
+                                  "id": "e7900edb-f0e2-4e0d-bc97-5727ff8a5ce5"
+                                },
+                                {
+                                  "title": "蜗牛豆-他人主页不显示",
+                                  "id": "53ace8a5-1c4f-49a8-843e-317c00e94cc5"
+                                },
+                                {
+                                  "title": "实名认证-他人主页不显示",
+                                  "id": "18871e84-980b-40c9-8d2a-6df840cd58e0"
+                                },
+                                {
+                                  "title": "客服中心-他人主页不显示",
+                                  "id": "8d4d3eac-1528-4779-9c9e-47c164fdb579"
+                                },
+                                {
+                                  "title": "主播申请-他人主页不显示",
+                                  "id": "b81cf373-6b05-4ae8-bfe7-11fbdb1c8315"
+                                },
+                                {
+                                  "title": "成为商户-他人主页不显示",
+                                  "id": "4be36419-7544-4026-9471-54a014b0195e"
+                                },
+                                {
+                                  "title": "好友邀请-他人主页不显示",
+                                  "id": "a6cc95e1-42bf-493e-97fb-4cd54f1bcce7"
+                                },
+                                {
+                                  "title": "设置-他人主页不显示",
+                                  "id": "5e5bb75f-c38a-4dc7-9810-0b6fdc630b8e",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "账号与安全",
+                                        "id": "611ac5bf-e14c-4ae1-9980-b5704f5bce1e"
+                                      },
+                                      {
+                                        "title": "关于我们",
+                                        "id": "ea0ce0f3-09f1-4a30-869d-90078ad0cb9b"
+                                      },
+                                      {
+                                        "title": "退出登陆",
+                                        "id": "2e09c16b-dba5-46b8-80e9-f65585119167"
+                                      },
+                                      {
+                                        "title": "开播提醒",
+                                        "id": "84ee6a5a-0b75-4a00-8594-118c88fe2ae8"
+                                      },
+                                      {
+                                        "title": "黑名单",
+                                        "id": "6d5a1801-1cc8-4141-a2c2-17afc5f621c6"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "视频列表",
+                                  "id": "6b89d30d-b0a0-4b18-bf78-1a60ebd48851"
+                                },
+                                {
+                                  "title": "点赞列表",
+                                  "id": "977165d8-067c-4f83-8831-f4d308c3a5c3"
+                                },
+                                {
+                                  "title": "收藏列表",
+                                  "id": "5db005d0-2b51-47ce-8c42-60426dc44ed2"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "推送消息",
+                            "id": "40703a14-aabf-4c3c-945f-18e354d3714a",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "系统通知",
+                                  "id": "c3aafe47-207a-44ba-8107-7c870b6df19c"
+                                },
+                                {
+                                  "title": "直播通知",
+                                  "id": "31c7de19-786b-4eb1-96f3-ea3bec784eae"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "IOS",
+                      "id": "de133ba8-a59b-415b-992f-d670957ba9e1",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "同Android",
+                            "id": "cc643550-bcea-4f44-8d4c-911a6e45817f"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "API服务",
+                      "id": "f2dd5a4d-1491-4e09-b437-c77ded70ebee",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "提供相应的API",
+                            "id": "87a11591-bffb-4993-861e-3916eaed3c3d"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "a14a4d039a9a9d9fd1933a481e",
+                "title": "官方网站",
+                "children": {
+                  "attached": [
+                    {
+                      "title": "首页",
+                      "id": "9383a485-b5e4-4a96-b9eb-71ffc04bec66"
+                    },
+                    {
+                      "title": "公司简介",
+                      "id": "bbf40af1-b6d0-4e1e-9e69-f10556b7a236"
+                    },
+                    {
+                      "title": "相关产品",
+                      "id": "3164773e-1a45-41af-b15d-f2b2ab73b5d6"
+                    },
+                    {
+                      "title": "特色",
+                      "id": "2f83a3bd-b1e5-4fe9-b0d5-9a47cac46bad"
+                    },
+                    {
+                      "title": "联系我们",
+                      "id": "df740455-861e-4d7e-8b7f-b1db53820483"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "481ac27538caaf0aa331b8bdb3",
+                "title": "平台后台管理系统",
+                "children": {
+                  "attached": [
+                    {
+                      "title": "首页",
+                      "id": "43390da4-81d2-4be6-8a00-c37afa74a35d",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "表格统计",
+                            "id": "1e424fa6-1987-4add-ae0b-904e7b26ffdf",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "用户数",
+                                  "id": "0bca8743-2bbd-4c24-bd32-f527bdf64462"
+                                },
+                                {
+                                  "title": "新增用户",
+                                  "id": "1bb04b85-faa5-4608-883b-f2d5dec9ed8a"
+                                },
+                                {
+                                  "title": "交易额统计",
+                                  "id": "d8007319-0875-423d-821e-199e091dfc48"
+                                },
+                                {
+                                  "title": "订单统计",
+                                  "id": "3d58b4d8-1313-4608-a63d-8116d52faabc"
+                                },
+                                {
+                                  "title": "直播统计",
+                                  "id": "61a28673-1820-4ae6-a5c5-35f1f592a3e6"
+                                },
+                                {
+                                  "title": "推广统计",
+                                  "id": "fab1e57c-d8e1-423b-a025-973d85663fe6"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "待处理消息",
+                            "id": "0afffe0b-8fae-4470-aa69-aa837f95a8db",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "商品审批",
+                                  "id": "7579015c-36ae-41a3-ac93-532538335114"
+                                },
+                                {
+                                  "title": "直播审批",
+                                  "id": "6af199fb-b830-49a3-af77-94028043cfb0"
+                                },
+                                {
+                                  "title": "发布审批",
+                                  "id": "f3efd6db-4941-4d6d-960c-999b37326394"
+                                },
+                                {
+                                  "title": "实名审批",
+                                  "id": "64c3ad38-a7e7-4ef2-8415-eedef560e4d7"
+                                },
+                                {
+                                  "title": "待发货",
+                                  "id": "b2ee49a0-615f-45a5-87ab-c4a5daf0f588"
+                                },
+                                {
+                                  "title": "退货",
+                                  "id": "f7b10b7f-7cde-49db-8e53-173dfca23fee"
+                                },
+                                {
+                                  "title": "退款",
+                                  "id": "0e6c3b52-8d9f-4f8a-9aa8-14d33db43056"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "用户管理",
+                      "id": "8a831c30-d4c7-44bf-91d0-ab21cc23fc40",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "用户列表",
+                            "id": "dd2abc9a-a205-4cf5-9384-cf7f5d1f660d"
+                          },
+                          {
+                            "title": "身份管理",
+                            "id": "67a4b3e6-93f8-45d3-a441-76c8b551b651",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "普通用户",
+                                  "id": "61d463d3-6122-48b2-b76c-79aaa930536c"
+                                },
+                                {
+                                  "title": "直播博主",
+                                  "id": "d86d52d5-2c65-4b72-a9ca-cf6c4493a481"
+                                },
+                                {
+                                  "title": "巡管/鉴黄师",
+                                  "id": "6c35bacc-a744-46fa-ade3-79c5428a50c6",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "封直播间",
+                                        "id": "615d8cea-f2bb-4f01-9ab2-44cd9c0e606d"
+                                      },
+                                      {
+                                        "title": "删视频",
+                                        "id": "0b750b88-395e-4299-9b93-8fd0b01ffff7"
+                                      },
+                                      {
+                                        "title": "删相册",
+                                        "id": "5d95af6c-7fcf-4816-860a-d541c2ff7dfc"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "禁用/启用",
+                            "id": "06b94f38-ec12-4e6e-89d7-d9953267ad73"
+                          },
+                          {
+                            "title": "实名审批",
+                            "id": "a4e30ee6-5a47-423f-b3b9-377a0c476452"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "权限管理",
+                      "id": "31bfdf39-4420-4c92-8eed-3a6a9e92812c",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "管理员",
+                            "id": "380e70c2-5706-4efd-a238-2164e6eaea72",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "超级管理员",
+                                  "id": "53e6b6ed-64fc-4a8c-9050-1209af7942cf"
+                                },
+                                {
+                                  "title": "直播巡管",
+                                  "id": "31c46ff3-c80b-4f3b-ab09-d0202afbb2b3"
+                                },
+                                {
+                                  "title": "财务",
+                                  "id": "c6f3e5c7-5567-473e-8942-a79bab1d51da"
+                                },
+                                {
+                                  "title": "商家/厂家",
+                                  "id": "a52d16a9-41cf-40b8-a638-00a57cef78ca"
+                                },
+                                {
+                                  "title": "客服",
+                                  "id": "2c502c04-b00b-4cd2-b4a3-d872dcf1099b"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "新增/修改/删除",
+                            "id": "98b99615-61eb-4155-b213-440b1bfa5eea"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "直播管理",
+                      "id": "5fa2b769-b432-4b24-a2c2-afdd230f996c",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "直播博主列表",
+                            "id": "7a046a3c-e7a6-4f67-9eff-e62eedf5fb96"
+                          },
+                          {
+                            "title": "直播申请",
+                            "id": "2edafb0c-e87d-425a-ae25-1f464d31ad3d"
+                          },
+                          {
+                            "title": "内容审核",
+                            "id": "7a152da3-a8a7-4c58-9b45-1c2489f58ad0",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "自动审批",
+                                  "id": "8e4cf8d6-0eca-4a74-9924-17ce4bb82e8c"
+                                },
+                                {
+                                  "title": "人工审批",
+                                  "id": "3324f6c9-1d12-470d-a51c-908e19890966"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "封禁",
+                            "id": "40007a0d-458b-496f-9e1c-c3ddc77342bf"
+                          },
+                          {
+                            "title": "热度修改",
+                            "id": "9891d023-67df-462f-8aa5-f9f90868bc6c"
+                          },
+                          {
+                            "title": "频道管理",
+                            "id": "a6fc118f-2cfb-4c00-9171-c0b98bc5b693"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "视频管理",
+                      "id": "b9dc4c5a-5653-4b84-8cce-4b0b200212ba",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "同上",
+                            "id": "ad60aaa5-2f52-46aa-8e2a-fd2777aeddec"
+                          },
+                          {
+                            "title": "视频浏览",
+                            "id": "2a6a6641-edd6-49d3-9dca-126eb26e4744"
+                          },
+                          {
+                            "title": "上传视频",
+                            "id": "c58a0688-7d5c-46bb-a1cc-5a6193e04c15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "商品管理",
+                      "id": "aa558cd7-3010-4fda-9b15-3d667b1087d8",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商品列表",
+                            "id": "4c373321-c81c-4d4b-aa53-1c1501c0caee"
+                          },
+                          {
+                            "title": "新增/编辑/删除",
+                            "id": "42625f0b-0381-4619-9bca-9ea944c5d187"
+                          },
+                          {
+                            "title": "上架",
+                            "id": "3f3d831d-4ffb-4800-9041-32ef490d0d8e"
+                          },
+                          {
+                            "title": "下架",
+                            "id": "d52703a0-7d01-4db9-849e-eed63b5d78cb"
+                          },
+                          {
+                            "title": "分区管理",
+                            "id": "605f4ed6-3aca-4ab0-902c-9e6050a02144"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "积分管理",
+                      "id": "9142587c-87ef-4a22-ba9d-23a0b0fecbfc"
+                    },
+                    {
+                      "title": "订单管理",
+                      "id": "9128c2a4-8bb6-414d-bf1d-be51759d6623",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "订单列表",
+                            "id": "e0837baa-d4e2-418b-94fc-7874eef12f5a",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "待支付",
+                                  "id": "325785cf-042f-4571-8a37-63df49271e1a"
+                                },
+                                {
+                                  "title": "代发货",
+                                  "id": "f28e46c9-ac18-4c6a-9bc9-f486aacf5970",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "发货",
+                                        "id": "ead68c88-ce93-4a15-b08c-2678f6964af9"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "已发货",
+                                  "id": "ce28b3da-2517-4a33-a70f-76fcf1107289"
+                                },
+                                {
+                                  "title": "退款/退货",
+                                  "id": "bd28e8db-4bba-42ba-9b04-701e871ce1dc",
+                                  "children": {
+                                    "attached": [
+                                      {
+                                        "title": "微信退款",
+                                        "id": "fbdf2988-a100-4dbe-ade2-f8063c08b434"
+                                      },
+                                      {
+                                        "title": "积分退还",
+                                        "id": "126c9d14-a28a-49d5-ba5f-e14d1480e505"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "物流追踪",
+                                  "id": "d103914b-5027-49d9-ac69-c375d57053f6"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "财务管理",
+                      "id": "a8dc5f0d-5b8c-4211-a7af-f768b6f54b6f",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "财务报表",
+                            "id": "21cefd05-9bd9-4a37-92fc-773a051c3695",
+                            "children": {
+                              "attached": [
+                                {
+                                  "title": "查看",
+                                  "id": "7bec4eea-8366-4ccc-bb70-0497dd298c04"
+                                },
+                                {
+                                  "title": "导出excel",
+                                  "id": "ec6f781b-55a7-4e2c-add8-e1e741370a0c"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "对账",
+                            "id": "e726047f-b340-4983-87bd-8d3288c90f7f"
+                          },
+                          {
+                            "title": "结算",
+                            "id": "36e4c863-272c-4e14-bf17-15add87c24f0"
+                          },
+                          {
+                            "title": "退款操作",
+                            "id": "05d0b4c3-ae8c-47cd-bb89-52cfc02970e6"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "投诉建议管理",
+                      "id": "b9cb1e53-a359-4b5b-b1f0-9ae68900a9d9"
+                    },
+                    {
+                      "title": "敏感日志管理",
+                      "id": "851a700a-f8e6-46b4-88a3-9faa8c8717b4"
+                    },
+                    {
+                      "title": "告警管理",
+                      "id": "27f6d456-faf8-433d-a3d3-b2a676b114e3"
+                    },
+                    {
+                      "title": "推送管理",
+                      "id": "ac35daa3-a386-4853-8717-238a1d260437"
+                    },
+                    {
+                      "title": "广告管理",
+                      "id": "4c655d7a-8d99-4c42-90d4-38197df46656",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商品排序",
+                            "id": "c2fe2b06-17e2-4393-ad4f-b7982c4661c9"
+                          },
+                          {
+                            "title": "首页广告区",
+                            "id": "fb544c9b-599d-448c-a9d9-247a50a3fb76"
+                          },
+                          {
+                            "title": "商城热销推荐/9.9",
+                            "id": "371e08f7-7430-4500-86cc-9cfcd8c9ac52"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "商户管理",
+                      "id": "30b8282d-8c71-4a2e-92ea-e840d27a45af",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商户列表",
+                            "id": "2fc60146-f99a-4ee3-8a1b-73a30ae71965"
+                          },
+                          {
+                            "title": "商户审批",
+                            "id": "eb3c1ce2-4c05-4bb8-a4d7-597fc13dff26"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "title": "商户后台管理系统",
+                "id": "34baf99b-3b8a-4022-84e1-a5e4b0f8cded",
+                "children": {
+                  "attached": [
+                    {
+                      "title": "订单管理",
+                      "id": "3910ab98-ebf5-46b6-a830-9d231b97764a",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "订单列表",
+                            "id": "57f5a5c4-a646-40f2-a7fb-db0af56ad1e1"
+                          },
+                          {
+                            "title": "发货",
+                            "id": "5adb10da-5d94-4332-a403-97b480ef06f9"
+                          },
+                          {
+                            "title": "退货申请",
+                            "id": "9a8468f7-29d9-458b-a1f2-6824be33d11a"
+                          },
+                          {
+                            "title": "退款申请",
+                            "id": "61acbc1a-41db-4922-97d7-28ed534524c4"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "财务管理",
+                      "id": "17ef2d51-b881-4d37-96d2-746e13871eb2",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "对账",
+                            "id": "b1c6129c-93fd-4068-a8d9-0f0384a664f8"
+                          },
+                          {
+                            "title": "结算",
+                            "id": "69db2355-5194-4c13-98ec-4bb7631f314d"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "直播管理",
+                      "id": "0ad9da58-77a0-48f0-aaac-7952fc8b8588",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "发蜗牛币红包",
+                            "id": "8473e343-7005-40f6-95dc-c9f985b4d9f0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "商品管理",
+                      "id": "88d09ef7-f389-46c8-a3ee-fb585532f081",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商品列表",
+                            "id": "79f15ba8-8435-4cc4-9c66-6c80450180fa"
+                          },
+                          {
+                            "title": "新增商品",
+                            "id": "1e722303-caa1-4608-a2c9-d688171d5ada"
+                          },
+                          {
+                            "title": "删除商品",
+                            "id": "0e920b71-5e23-46f9-b0b2-51ea1bd348f0"
+                          },
+                          {
+                            "title": "修改商品",
+                            "id": "f73345b0-1f04-455e-b823-e4210e0d2cb8"
+                          },
+                          {
+                            "title": "上架申请",
+                            "id": "95860cc7-c662-44eb-b2ee-ca7acbe58621"
+                          },
+                          {
+                            "title": "下架商品",
+                            "id": "bdb93434-a1bd-48a8-86ec-30e6d54fbce0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "客服消息",
+                      "id": "b26c9cfe-6fcc-47d1-add5-299e0e9aaabb"
+                    },
+                    {
+                      "title": "权限管理",
+                      "id": "5430c734-3be9-4b24-816e-8164f3d57455",
+                      "children": {
+                        "attached": [
+                          {
+                            "title": "商户管理",
+                            "id": "71962dc1-91a6-4ea1-a6d2-89bc9045ec27"
+                          },
+                          {
+                            "title": "财务",
+                            "id": "b6c0988c-ee6f-4f94-a005-0a3db8a9ae10"
+                          },
+                          {
+                            "title": "客服",
+                            "id": "92dd6640-8cb7-49c7-9b94-839478d81856"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "extensions": [],
+        "theme": {
+          "id": "fc3ada80-28db-445e-bdba-a5ad4eb27d2d",
+          "centralTopic": {
+            "id": "c5069014-b642-4cf5-bb50-1d29bd0df2a1",
+            "properties": {
+              "svg:fill": "#000229",
+              "line-color": "#000229",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "line-width": "2pt",
+              "line-pattern": "solid",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "arrow-end-class": "org.xmind.arrowShape.none",
+              "alignment-by-level": "actived",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "28pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "mainTopic": {
+            "id": "70cef26a-bf8a-4a75-a3ba-c39b54a6401d",
+            "properties": {
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "18pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left"
+            }
+          },
+          "subTopic": {
+            "id": "d5c7d9c0-e954-4c99-9e01-91cccd629c22",
+            "properties": {
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 400,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left",
+              "svg:fill": "none"
+            }
+          },
+          "summaryTopic": {
+            "id": "dc5d147f-2c2a-423f-8d4f-26c6e4cdc4ec",
+            "properties": {
+              "svg:fill": "none",
+              "border-line-color": "#000229",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "fill-pattern": "solid",
+              "fo:font-family": "Montserrat",
+              "fo:font-style": "normal",
+              "fo:font-weight": "400",
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "calloutTopic": {
+            "id": "b2ccd2cb-e4d0-4c1d-8615-fea7a1b98854",
+            "properties": {
+              "svg:fill": "#000229",
+              "border-line-color": "#000229",
+              "callout-shape-class": "org.xmind.calloutTopicShape.balloon.ellipse",
+              "fill-pattern": "solid",
+              "fo:font-family": "NeverMind",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "left"
+            }
+          },
+          "floatingTopic": {
+            "id": "1db99452-2bb0-4de8-87f5-cdeb8a591d7b",
+            "properties": {
+              "svg:fill": "#EEEBEE",
+              "border-line-color": "#EEEBEE",
+              "shape-class": "org.xmind.topicShape.roundedRect",
+              "line-class": "org.xmind.branchConnection.roundedfold",
+              "line-pattern": "solid",
+              "fill-pattern": "solid",
+              "border-line-width": "0pt",
+              "arrow-end-class": "org.xmind.arrowShape.none",
+              "fo:font-family": "Montserrat",
+              "fo:font-style": "normal",
+              "fo:font-weight": "normal",
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "boundary": {
+            "id": "beaff7ce-691f-481d-847c-c5f43d125660",
+            "properties": {
+              "svg:fill": "#000229",
+              "line-color": "#000229",
+              "shape-class": "org.xmind.boundaryShape.roundedRect",
+              "shape-corner": "20pt",
+              "line-width": "2",
+              "line-pattern": "dash",
+              "fill-pattern": "solid",
+              "fo:font-family": "'NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "14pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "summary": {
+            "id": "7e7d8704-9339-4a37-a8dc-f3a3aa2f4cf2",
+            "properties": {
+              "line-color": "#000229",
+              "shape-class": "org.xmind.summaryShape.square",
+              "line-width": "2pt",
+              "line-pattern": "solid",
+              "line-corner": "8pt"
+            }
+          },
+          "relationship": {
+            "id": "81c8d0be-6082-4a1c-b88c-23b1445e0647",
+            "properties": {
+              "line-color": "#000229",
+              "shape-class": "org.xmind.relationshipShape.curved",
+              "line-width": "2",
+              "line-pattern": "dash",
+              "arrow-begin-class": "org.xmind.arrowShape.none",
+              "arrow-end-class": "org.xmind.arrowShape.triangle",
+              "fo:font-family": "'NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+              "fo:font-style": "normal",
+              "fo:font-weight": 600,
+              "fo:font-size": "13pt",
+              "fo:text-transform": "manual",
+              "fo:text-decoration": "none",
+              "fo:text-align": "center"
+            }
+          },
+          "map": {
+            "id": "ea5bbe08-7b7a-4b13-a4ee-49b20dcc4de2",
+            "properties": {
+              "svg:fill": "#FFFFFF",
+              "multi-line-colors": "#F9423A #F6A04D #F3D321 #00BC7B #486AFF #4D49BE",
+              "color-list": "#000229 #1F2766 #52CC83 #4D86DB #99142F #245570",
+              "line-tapered": "none"
+            }
+          },
+          "importantTopic": {
+            "id": "6c4e5a0a-db82-4dc6-9816-213ad1a38238",
+            "properties": {
+              "svg:fill": "#460400",
+              "fill-pattern": "solid"
+            }
+          },
+          "minorTopic": {
+            "id": "febf0c47-d75e-4149-a07f-a44cf847e7ab",
+            "properties": {
+              "svg:fill": "#703D00",
+              "fill-pattern": "solid"
+            }
+          },
+          "colorThemeId": "Rainbow-#000229-MULTI_LINE_COLORS",
+          "expiredTopic": {
+            "id": "de27144f-305c-48fd-8134-0e7da6378c9d",
+            "properties": {
+              "fo:text-decoration": "line-through",
+              "svg:fill": "none"
+            }
+          },
+          "global": {
+            "id": "c07a86dd-c0bb-443f-9155-7a7c9992ddc8",
+            "properties": {}
+          },
+          "skeletonThemeId": "a148ee55687bdfc44af2fa5f16"
+        },
+        "topicPositioning": "fixed",
+        "coreVersion": "2.54.0"
+      }
+    }
+  ]
+}
