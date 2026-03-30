@@ -17,9 +17,9 @@ class ContentTest {
         content.setId(1L);
         content.setUser(user);
         content.setTitle("Test Content");
-        content.setBody("This is the content body");
+        content.setContent("This is the content body");
         content.setType(Content.ContentType.TEXT);
-        content.setStatus(Content.ContentStatus.PUBLISHED);
+        content.setVisibility(Content.ContentVisibility.PUBLISHED);
         content.setViewCount(10);
         content.setLikeCount(5);
         content.setCommentCount(2);
@@ -27,9 +27,9 @@ class ContentTest {
         assertEquals(1L, content.getId());
         assertEquals(user, content.getUser());
         assertEquals("Test Content", content.getTitle());
-        assertEquals("This is the content body", content.getBody());
+        assertEquals("This is the content body", content.getContent());
         assertEquals(Content.ContentType.TEXT, content.getType());
-        assertEquals(Content.ContentStatus.PUBLISHED, content.getStatus());
+        assertEquals(Content.ContentVisibility.PUBLISHED, content.getVisibility());
         assertEquals(Integer.valueOf(10), content.getViewCount());
         assertEquals(Integer.valueOf(5), content.getLikeCount());
         assertEquals(Integer.valueOf(2), content.getCommentCount());
@@ -42,9 +42,9 @@ class ContentTest {
         assertNull(content.getId());
         assertNull(content.getUser());
         assertNull(content.getTitle());
-        assertNull(content.getBody());
+        assertNull(content.getContent());
         assertEquals(Content.ContentType.TEXT, content.getType()); // Default type
-        assertEquals(Content.ContentStatus.PUBLISHED, content.getStatus()); // Default status
+        assertEquals(Content.ContentVisibility.PUBLISHED, content.getVisibility()); // Default visibility
         assertEquals(Integer.valueOf(0), content.getViewCount()); // Default view count
         assertEquals(Integer.valueOf(0), content.getLikeCount()); // Default like count
         assertEquals(Integer.valueOf(0), content.getCommentCount()); // Default comment count
@@ -75,20 +75,20 @@ class ContentTest {
     }
 
     @Test
-    void testDifferentContentStatuses() {
+    void testDifferentContentVisibilities() {
         Content content = new Content();
         
-        // Test various content statuses
-        content.setStatus(Content.ContentStatus.DRAFT);
-        assertEquals(Content.ContentStatus.DRAFT, content.getStatus());
+        // Test various content visibilities
+        content.setVisibility(Content.ContentVisibility.DRAFT);
+        assertEquals(Content.ContentVisibility.DRAFT, content.getVisibility());
         
-        content.setStatus(Content.ContentStatus.PUBLISHED);
-        assertEquals(Content.ContentStatus.PUBLISHED, content.getStatus());
+        content.setVisibility(Content.ContentVisibility.PUBLISHED);
+        assertEquals(Content.ContentVisibility.PUBLISHED, content.getVisibility());
         
-        content.setStatus(Content.ContentStatus.ARCHIVED);
-        assertEquals(Content.ContentStatus.ARCHIVED, content.getStatus());
+        content.setVisibility(Content.ContentVisibility.ARCHIVED);
+        assertEquals(Content.ContentVisibility.ARCHIVED, content.getVisibility());
         
-        content.setStatus(Content.ContentStatus.DELETED);
-        assertEquals(Content.ContentStatus.DELETED, content.getStatus());
+        content.setVisibility(Content.ContentVisibility.DELETED);
+        assertEquals(Content.ContentVisibility.DELETED, content.getVisibility());
     }
 }

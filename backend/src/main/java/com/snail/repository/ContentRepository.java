@@ -15,16 +15,16 @@ import java.util.List;
 public interface ContentRepository extends JpaRepository<Content, Long> {
     List<Content> findByUserId(Long userId);
     List<Content> findByUser(User user);
-    List<Content> findByStatus(Content.ContentStatus status);
-    List<Content> findByTypeAndStatus(Content.ContentType type, Content.ContentStatus status);
-    List<Content> findByStatusOrderByPublishedAtDesc(Content.ContentStatus status);
+    List<Content> findByVisibility(Content.ContentVisibility visibility);
+    List<Content> findByTypeAndVisibility(Content.ContentType type, Content.ContentVisibility visibility);
+    List<Content> findByVisibilityOrderByPublishedAtDesc(Content.ContentVisibility visibility);
     
     // Admin content management methods
-    Page<Content> findByStatus(Content.ContentStatus status, Pageable pageable);
-    Page<Content> findByTitleContainingIgnoreCaseOrBodyContainingIgnoreCase(String title, String body, Pageable pageable);
+    Page<Content> findByVisibility(Content.ContentVisibility visibility, Pageable pageable);
+    Page<Content> findByTitleContainingIgnoreCaseOrContentContainingIgnoreCase(String title, String content, Pageable pageable);
     
     // Content statistics methods
-    Long countByStatus(Content.ContentStatus status);
+    Long countByVisibility(Content.ContentVisibility visibility);
     Long countByCreatedAtBetween(LocalDateTime start, LocalDateTime end);
     
     @Query("SELECT COUNT(c) FROM Content c WHERE FUNCTION('DATE', c.createdAt) = FUNCTION('DATE', CURRENT_DATE)")

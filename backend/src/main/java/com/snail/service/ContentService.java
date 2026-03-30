@@ -36,7 +36,7 @@ public class ContentService {
     }
 
     public List<ContentDto> getPublishedContents() {
-        return contentRepository.findByStatusOrderByPublishedAtDesc(Content.ContentStatus.PUBLISHED).stream()
+        return contentRepository.findByVisibilityOrderByPublishedAtDesc(Content.ContentVisibility.PUBLISHED).stream()
                 .map(ContentDto::fromEntity)
                 .collect(Collectors.toList());
     }
@@ -65,9 +65,9 @@ public class ContentService {
         }
 
         existingContent.setTitle(contentDto.getTitle());
-        existingContent.setBody(contentDto.getBody());
+        existingContent.setContent(contentDto.getContent());
         existingContent.setType(contentDto.getType());
-        existingContent.setStatus(contentDto.getStatus());
+        existingContent.setVisibility(contentDto.getVisibility());
 
         Content updatedContent = contentRepository.save(existingContent);
         return ContentDto.fromEntity(updatedContent);

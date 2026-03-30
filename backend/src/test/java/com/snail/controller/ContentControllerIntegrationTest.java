@@ -96,7 +96,7 @@ class ContentControllerIntegrationTest {
         // 创建测试内容
         Content testContent = new Content();
         testContent.setTitle("Test Content");
-        testContent.setBody("This is test content body");
+        testContent.setContent("This is test content body");
         testContent.setType(Content.ContentType.TEXT);
         testContent.setStatus(Content.ContentStatus.PUBLISHED);
         testContent.setUser(savedUser);

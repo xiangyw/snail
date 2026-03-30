@@ -36,3 +36,8 @@ logging:
     org.springframework.web: DEBUG
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+# 文件上传配置
+file:
+  upload:
+    dir: ./uploads/

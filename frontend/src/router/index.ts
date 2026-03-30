@@ -32,6 +32,28 @@ const router = createRouter({
       path: '/register',
       name: 'register',
       component: () => import('@/views/Register/index.vue')
+    },
+    {
+      path: '/content/list',
+      name: 'contentList',
+      component: () => import('@/views/ContentList/index.vue')
+    },
+    {
+      path: '/content/publish',
+      name: 'contentPublish',
+      component: () => import('@/views/ContentPublish/index.vue')
+    },
+    {
+      path: '/content/detail/:id',
+      name: 'contentDetail',
+      component: () => import('@/views/ContentDetail/index.vue'),
+      props: true
+    },
+    {
+      path: '/content/edit/:id',
+      name: 'contentEdit',
+      component: () => import('@/views/ContentEdit/index.vue'),
+      props: true
     }
   ]
 })

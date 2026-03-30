@@ -33,6 +33,8 @@
 |------|------|------|
 | 用户认证 | `/auth` | 登录、注册、Token 管理 |
 | 用户中心 | `/users` | 用户信息、资料管理 |
+| 任务管理 | `/tasks` | 任务获取、领取、提交 |
+| 用户任务 | `/user-tasks` | 用户任务操作 |
 | 内容管理 | `/content` | 视频、直播、动态 |
 | 商城 | `/shop` | 商品、订单、购物车 |
 | 消息 | `/messages` | 私信、通知、系统消息 |
@@ -284,6 +286,220 @@ Authorization: Bearer <token>
     "isRealNamed": true,
     "isAnchor": false,
     "isMerchant": false
+  }
+}
+```
+
+---
+
+### 📋 任务模块 (/api/tasks)
+
+#### 1. 获取所有任务
+
+```http
+GET /api/tasks
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "title": "每日签到任务",
+      "description": "完成每日签到获得奖励",
+      "reward": 10,
+      "status": "active",
+      "createdAt": "2026-03-30 10:00:00"
+    }
+  ]
+}
+```
+
+---
+
+#### 2. 获取活跃任务
+
+```http
+GET /api/tasks/active
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "title": "每日签到任务",
+      "description": "完成每日签到获得奖励",
+      "reward": 10,
+      "status": "active",
+      "createdAt": "2026-03-30 10:00:00"
+    }
+  ]
+}
+```
+
+---
+
+#### 3. 获取单个任务
+
+```http
+GET /api/tasks/{id}
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": {
+    "id": 1,
+    "title": "每日签到任务",
+    "description": "完成每日签到获得奖励",
+    "reward": 10,
+    "status": "active",
+    "createdAt": "2026-03-30 10:00:00"
+  }
+}
+```
+
+---
+
+### 📋 用户任务模块 (/user-tasks)
+
+#### 1. 领取任务
+
+```http
+POST /api/user-tasks/{id}/claim
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": true
+}
+```
+
+---
+
+#### 2. 提交任务
+
+```http
+POST /api/user-tasks/{id}/submit
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": true
+}
+```
+
+---
+
+#### 3. 获取我的任务
+
+```http
+GET /api/user-tasks/my
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 101,
+      "taskId": 1,
+      "taskTitle": "每日签到任务",
+      "status": "pending",
+      "claimedAt": "2026-03-30 10:30:00",
+      "completedAt": null
+    }
+  ]
+}
+```
+
+---
+
+#### 4. 根据状态获取我的任务
+
+```http
+GET /api/user-tasks/my/{status}
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 101,
+      "taskId": 1,
+      "taskTitle": "每日签到任务",
+      "status": "pending",
+      "claimedAt": "2026-03-30 10:30:00",
+      "completedAt": null
+    }
+  ]
+}
+```
+
+---
+
+#### 5. 获取单个用户任务
+
+```http
+GET /api/user-tasks/{id}
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": {
+    "id": 101,
+    "taskId": 1,
+    "taskTitle": "每日签到任务",
+    "status": "pending",
+    "claimedAt": "2026-03-30 10:30:00",
+    "completedAt": null
+  }
+}
+```
+
+---
+
+#### 6. 更新用户任务状态
+
+```http
+PUT /api/user-tasks/{id}/status/{status}
+Authorization: Bearer <token>
+```
+
+**响应：**
+```json
+{
+  "code": 200,
+  "data": {
+    "id": 101,
+    "taskId": 1,
+    "taskTitle": "每日签到任务",
+    "status": "completed",
+    "claimedAt": "2026-03-30 10:30:00",
+    "completedAt": "2026-03-30 11:00:00"
   }
 }
 ```

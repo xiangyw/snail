@@ -27,13 +27,13 @@ public class Content {
     
     @Lob
     @Column(columnDefinition = "TEXT")
-    private String body;
+    private String content;
     
     @Enumerated(EnumType.STRING)
     private ContentType type = ContentType.TEXT;
     
     @Enumerated(EnumType.STRING)
-    private ContentStatus status = ContentStatus.PUBLISHED;
+    private ContentVisibility visibility = ContentVisibility.PUBLISHED;
     
     @Column(name = "view_count")
     private Integer viewCount = 0;
@@ -57,7 +57,7 @@ public class Content {
         TEXT, IMAGE, VIDEO, AUDIO, LINK
     }
     
-    public enum ContentStatus {
+    public enum ContentVisibility {
         DRAFT, PUBLISHED, ARCHIVED, DELETED
     }
 }
